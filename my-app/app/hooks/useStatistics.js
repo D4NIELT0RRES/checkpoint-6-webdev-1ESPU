@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import { useContactsContext } from "../contexts/ContactsContext";
+import { useContactsContext } from "./contexts/ContactsContext";
 
 export function useStatistics(filteredItems = []) {
     const { contacts } = useContactsContext();
