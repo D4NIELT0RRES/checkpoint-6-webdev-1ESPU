@@ -1,5 +1,5 @@
 import "./globals.css";
-import { ContactsProvider } from "./context/ContactsContext";
+import { ContactsProvider } from "./contexts/ContactsContext";
 
 export const metadata = {
   title: "Checkpoint 6 – Contatos",
